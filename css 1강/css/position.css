@@ -1,0 +1,67 @@
+section {
+    margin: 100px;
+    padding: 100px;
+    background: #f9f9f9;
+    text-align: center;
+
+}
+
+.inner {
+    background: blue;
+
+}
+
+.box {
+    background: tomato;
+
+}
+
+.sc01 {
+    position: relative;
+    border: 20px solid #000;
+}
+
+.sc01 .box {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sc02 {
+    position: relative;
+}
+
+.sc02 .box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sc02 .box2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0, -50%);
+    margin: 0 0 0 -600px;
+    background: tomato;
+}
+
+.sc02 .box3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -50%);
+    margin: 0 0 0 600px;
+    background: tomato;
+}
+
+.sc03 {
+    position: relative;
+}
+
+.sc03 .box {
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+}

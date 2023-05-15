@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    font-weight: inherit;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.section1 {
+    padding: 100px 0;
+}
+
+.section1 h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.section1 p {
+    font-size: 15px;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+.section1 .inner {
+    display: flex;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.section1 figure {
+    overflow: hidden;
+}
+
+.section1 figure img {
+    transition: 0.5s;
+}
+
+.section1 figure:hover img {
+    transform: scale(1.5);
+}

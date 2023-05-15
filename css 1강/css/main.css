@@ -1,0 +1,35 @@
+button {
+    display: none;
+}
+
+@media (max-width:768px) {
+    button {
+        display: block;
+    }
+}
+
+.box2 {
+    background: yellow;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 100px;
+    border: 10px solid #000;
+
+    display: block;
+}
+
+.box {
+    background: tomato;
+    color: #ffffff;
+    font-size: 50px;
+
+    width: 500px;
+
+    margin: 100px;
+    padding: 30px;
+}
+
+
+strong {
+    display: block;
+}

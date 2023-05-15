@@ -1,0 +1,49 @@
+section {
+    padding: 100px 0;
+}
+
+section:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+    background: tomato;
+}
+
+.itm {
+    background: yellow;
+}
+
+/* 기본 공식 */
+.sc01 .inner {
+    display: flex;
+    gap: 30px;
+    padding: 0 15px;
+}
+
+.sc01 .inner .itm {
+    flex: 1;
+
+}
+
+.sc02 .inner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 0 15px;
+}
+
+.cf::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.sc03 .itm {
+    width: 33.33333333%;
+    float: left;
+    padding: 0 15px;
+}
